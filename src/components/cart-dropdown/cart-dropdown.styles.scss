@@ -15,7 +15,17 @@
       height: 240px;
       display: flex;
       flex-direction: column;
-      overflow: scroll;
+      overflow-y: scroll;
+
+      &::-webkit-scrollbar {
+        opacity: 0;
+        width: 0.5em;
+      }
+      
+      &::-webkit-scrollbar-thumb {
+        background-color: #0e0e0e;
+        border-radius: 100px;
+      }
     }
   
     button {
