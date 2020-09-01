@@ -1,18 +1,16 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import CollectionsOverviewContainer from '../../components/collections-overview/collections-overview.container';
 import {Route} from 'react-router-dom';
 import CollectionPageContainer from '../collection/collection.container';
 import {fetchCollectionsStart} from '../../redux/shop/shop.actions';
 import {connect} from 'react-redux';
 
-class ShopPage extends React.Component {  
-    componentDidMount(){
-        const {fetchCollectionsStart} = this.props;
-        fetchCollectionsStart();
-    }
+const ShopPage = ({ fetchCollectionsStart, match }) => {  
 
-    render(){
-        const {match} = this.props;
+    useEffect(() => {
+        fetchCollectionsStart()
+    }, [fetchCollectionsStart]);
+
         return(
             <div className='shop-page'>
                 <Route 
@@ -26,8 +24,6 @@ class ShopPage extends React.Component {
                 />
             </div>
         );
-    }
-    
 };
 
 const mapDispatchToProps = dispatch => ({
