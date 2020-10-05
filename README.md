@@ -12,6 +12,7 @@ E-commerce application built using React, Redux, GraphQL, Firebase, Stripe & mor
 * shopping cart
 * checkout with payment
 
+
 ### Home Page
 ![home](https://github.com/G-Samarth/crown-clothing/blob/master/images/screenshot1.jpg)
 ### Shop Page
@@ -22,8 +23,8 @@ E-commerce application built using React, Redux, GraphQL, Firebase, Stripe & mor
 ![cart](https://github.com/G-Samarth/crown-clothing/blob/master/images/screenshot4.jpg)
 ### Stripe Payment
 ![stripe](https://github.com/G-Samarth/crown-clothing/blob/master/images/screenshot5.jpg)
-![use](https://github.com/G-Samarth/crown-clothing/blob/master/images/record.gif)
 
+![use](https://github.com/G-Samarth/crown-clothing/blob/master/images/record.gif)
 
 <!-- CONTACT -->
 ## Contact
@@ -31,4 +32,3 @@ E-commerce application built using React, Redux, GraphQL, Firebase, Stripe & mor
 SAMARTH GHULYANI
 
 LinkedIn Profile: [linkedin.com/in/samarth-ghulyani-5ab102168](https://in.linkedin.com/in/samarth-ghulyani-5ab102168)
-
